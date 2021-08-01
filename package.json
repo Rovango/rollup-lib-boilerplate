@@ -1,0 +1,32 @@
+{
+  "name": "rollup-lib-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for build library by rollup",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "rollup -c",
+    "copy": "cp package.json README.md dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rovango/rollup-lib-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "rovango.zheng",
+  "browser": "dist/index.js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rovango/rollup-lib-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Rovango/rollup-lib-boilerplate#readme",
+  "devDependencies": {
+    "commander": "^8.1.0",
+    "rollup": "^2.55.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "shelljs": "^0.8.4",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  }
+}
